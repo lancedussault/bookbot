@@ -9,10 +9,11 @@ def main():
     #print(word_count)
     #print(character_count)
     #print(dict_list)
+
     print(f"--- Begin report of {path_to_file} ---")
     print(f"{word_count} words found in the document")
     for item in dict_list:
-        print(f"The {item["char"]} character was found {item["count"]} times")
+        print(f"The {item['char']} character was found {item['count']} times")
     print("--- End report ---")
 
 def read_the_book(path):
